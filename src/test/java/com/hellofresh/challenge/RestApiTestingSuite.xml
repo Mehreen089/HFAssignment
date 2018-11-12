@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- TestNG Documentation: http://testng.org/doc/documentation-main.html -->
+<!-- Change "false" to "tests", "methods", "classes" or "instances" for running in parallel. See more details in the TestNG documentation. -->
+<suite name="HelloFreshAPITestSuite" parallel="methods" thread-count="2" >
+  <test name="HelloFreshAPITest" group-by-instances="true">
+    <classes>
+      <class name="com.hellofresh.challenge.RestApiTest" />
+    </classes>
+  </test>
+</suite>

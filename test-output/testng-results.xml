@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-11-11T12:21:30Z" name="HelloFreshAPITestSuite" finished-at="2018-11-11T12:21:37Z" duration-ms="6950">
+    <groups>
+    </groups>
+    <test started-at="2018-11-11T12:21:30Z" name="HelloFreshAPITest" finished-at="2018-11-11T12:21:37Z" duration-ms="6950">
+      <class name="com.hellofresh.challenge.RestApiTest">
+        <test-method signature="Test_DE()[pri:0, instance:com.hellofresh.challenge.RestApiTest@209da20d]" started-at="2018-11-11T12:21:30Z" name="Test_DE" finished-at="2018-11-11T12:21:34Z" duration-ms="3248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_DE -->
+        <test-method signature="Test_GB()[pri:0, instance:com.hellofresh.challenge.RestApiTest@209da20d]" started-at="2018-11-11T12:21:30Z" name="Test_GB" finished-at="2018-11-11T12:21:34Z" duration-ms="3264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_GB -->
+        <test-method signature="Test_InexistentCountry()[pri:0, instance:com.hellofresh.challenge.RestApiTest@209da20d]" started-at="2018-11-11T12:21:34Z" name="Test_InexistentCountry" finished-at="2018-11-11T12:21:35Z" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_InexistentCountry -->
+        <test-method signature="Test_US()[pri:0, instance:com.hellofresh.challenge.RestApiTest@209da20d]" started-at="2018-11-11T12:21:34Z" name="Test_US" finished-at="2018-11-11T12:21:35Z" duration-ms="996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_US -->
+        <test-method signature="Test_getAllCountries()[pri:0, instance:com.hellofresh.challenge.RestApiTest@209da20d]" started-at="2018-11-11T12:21:35Z" name="Test_getAllCountries" finished-at="2018-11-11T12:21:37Z" duration-ms="2667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_getAllCountries -->
+      </class> <!-- com.hellofresh.challenge.RestApiTest -->
+    </test> <!-- HelloFreshAPITest -->
+  </suite> <!-- HelloFreshAPITestSuite -->
+</testng-results>

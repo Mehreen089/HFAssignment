@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- TestNG Documentation: http://testng.org/doc/documentation-main.html -->
+<!-- Change "false" to "tests", "methods", "classes" or "instances" for running in parallel. See more details in the TestNG documentation. -->
+<suite name="HelloFreshTestSuite">
+   <test name="HelloFreshTest">
+        <classes>
+            <class name="com.hellofresh.challenge.WebTest" />   
+        </classes>
+    </test>
+</suite>
